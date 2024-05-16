@@ -1,0 +1,42 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: project-postgres
+    env_file:
+      - .env
+    volumes:
+      - ./db/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./db/postgres/config/postgres.conf:/etc/postgresql/postgresql.conf
+    ports:
+      - "5432:5432"
+    networks:
+      - project-network
+
+  mongo:
+    image: mongo:latest
+    container_name: project-mongo
+    env_file:
+      - .env
+    volumes:
+      - ./db/mongo/init.js:/docker-entrypoint-initdb.d/init.js
+    ports:
+      - "27017:27017"
+    networks:
+      - project-network
+
+  app:
+    build: ./src/app
+    container_name: project-app
+    volumes:
+      - ./data/input:/app/data/input
+      - ./data/output:/app/data/output
+    depends_on:
+      - postgres
+      - mongo
+    networks:
+      - project-network
+
+networks:
+  project-network:
+    driver: bridge
