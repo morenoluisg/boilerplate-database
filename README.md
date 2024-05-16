@@ -1,7 +1,13 @@
 
-
+## Documentación del Proyecto
+- Introducción
+- Objetivos
+- Atributos de Calidad
+## Arquitectura
+- Componentes
+![architecture.png](doc/img/architecture.png)
 ## Estructura del repositorio:
-```
+``` 
 boilerplate-database/
 ├── README.md
 ├── docker-compose.yml
