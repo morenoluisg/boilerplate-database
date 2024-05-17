@@ -1,12 +1,68 @@
 
-## Documentación del Proyecto
-- Introducción
-- Objetivos
-- Atributos de Calidad
-## Arquitectura
+# Documentación del Proyecto
+
+---
+
+## Introducción
+- **Descripción del Proyecto:** Breve descripción del proyecto y su propósito.
+- **Contexto:** Antecedentes y contexto en los que se desarrolla el proyecto.
+- **Alcance:** Alcance del proyecto y lo que se espera lograr.
+
+## Objetivos
+- **Objetivos Generales:** Metas amplias que el proyecto pretende alcanzar.
+- **Objetivos Específicos:** Metas más detalladas y específicas que se deben cumplir para alcanzar los objetivos generales.
+
+## Atributos de Calidad
+- **Escalabilidad:** Cómo la arquitectura puede manejar un aumento en la carga de trabajo.
+- **Rendimiento:** Expectativas de rendimiento y cómo se medirá.
+- **Disponibilidad:** Nivel de disponibilidad requerido y cómo se logrará.
+- **Seguridad:** Medidas de seguridad implementadas para proteger los datos.
+- **Mantenibilidad:** Cómo se asegurará que la arquitectura sea fácil de mantener y actualizar.
+- **Confiabilidad:** Nivel de confiabilidad y cómo se garantizará.
+
+## Descripción de la Arquitectura
+- **Diagramas de Arquitectura:** Diagramas que ilustren la arquitectura del sistema.
+- **Componentes:** Descripción de los principales componentes del sistema y sus responsabilidades.
+- **Flujo de Datos:** Cómo se mueven los datos a través del sistema.
+### Arquitectura
 - Componentes
 ![architecture.png](doc/img/architecture.png)
-## Estructura del repositorio:
+## Tecnologías Utilizadas
+- **Lenguajes de Programación:** Lenguajes utilizados en el proyecto.
+- **Frameworks y Librerías:** Herramientas y librerías clave utilizadas.
+- **Plataformas y Servicios:** Plataformas (como bases de datos, servicios en la nube, etc.) que se están utilizando.
+
+## Configuración e Instalación
+- **Requisitos Previos:** Herramientas y software necesarios antes de la instalación.
+- **Instrucciones de Instalación:** Pasos detallados para instalar y configurar el proyecto.
+- **Configuración Inicial:** Configuraciones iniciales que deben ser realizadas antes de ejecutar el proyecto.
+
+## Uso del Proyecto
+- **Guía de Usuario:** Instrucciones sobre cómo usar el proyecto.
+- **Ejemplos de Uso:** Ejemplos prácticos de cómo interactuar con el sistema.
+
+## Pruebas y Validación
+- **Estrategia de Pruebas:** Cómo se realizarán las pruebas para asegurar la calidad.
+- **Casos de Prueba:** Ejemplos de casos de prueba que se utilizarán.
+- **Resultados Esperados:** Resultados esperados de las pruebas.
+
+## Mantenimiento y Soporte
+- **Guía de Mantenimiento:** Procedimientos y mejores prácticas para mantener el sistema.
+- **Soporte:** Cómo obtener ayuda y soporte para el proyecto.
+
+## Contribuciones
+- **Guía de Contribución:** Cómo otros pueden contribuir al proyecto.
+- **Políticas de Código:** Normas y políticas para contribuir con código al proyecto.
+
+## Licencia
+- **Licencia del Proyecto:** Detalles sobre la licencia bajo la cual se distribuye el proyecto.
+
+## Agradecimientos
+- **Reconocimientos:** Agradecimientos a quienes han contribuido al proyecto.
+
+---
+
+# Estructura del repositorio:
 ``` 
 boilerplate-database/
 ├── README.md
@@ -88,7 +144,7 @@ boilerplate-database/
 
 - **.env**: Archivo que contiene variables de entorno necesarias para la configuración del proyecto.
 
-
+***
 
 ## Instrucciones básicas
 Clona el repositorio.
